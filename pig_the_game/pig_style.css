@@ -31,11 +31,24 @@ body > div {
 
 .p_name {
     color: #A1A1A1;
-    font-size: 30px;
-    line-height: 32px;
+    font-size: 35px;
+    line-height: 37px;
     letter-spacing: 2px;
     margin-top: 24%;
     margin-bottom: 5%;
+    position: relative;
+}
+
+.dot_turn {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    display: inline-block;
+    position: absolute;
+    top: 39%;
+    right: 25%;
+    visibility: hidden;
 }
 
 .p_score {
@@ -102,4 +115,64 @@ body > div {
 #hold {
     width: 75px;
     bottom: 16%;
+}
+
+#dice {
+    width: 85px;
+    height: 85px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 30%;
+    box-shadow: 1px 1px 50px 1px #BEBEBE;
+}
+
+.dot_dice {
+    width: 12px;
+    height: 12px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+#dot_dice_1 {
+    top: 15%;
+    left: 15%;
+    visibility: hidden;
+}
+
+#dot_dice_2 {
+    top: 15%;
+    left: 43%;
+    visibility: hidden;
+}
+
+#dot_dice_3 {
+    top: 15%;
+    right: 15%;
+    visibility: hidden;
+}
+
+#dot_dice_4 {
+    top: 43%;
+    left: 43%;
+    visibility: hidden;
+}
+
+#dot_dice_5 {
+    bottom: 15%;
+    left: 15%;
+    visibility: hidden;
+}
+
+#dot_dice_6 {
+    bottom: 15%;
+    left: 43%;
+    visibility: hidden;
+}
+
+#dot_dice_7 {
+    bottom: 15%;
+    right: 15%;
+    visibility: hidden;
 }
