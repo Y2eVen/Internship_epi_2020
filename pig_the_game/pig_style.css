@@ -187,18 +187,27 @@ body > div {
     
 }
 
+#overlay {
+    width: 851px;
+    height: 500px;
+    position: fixed;
+    background-color: #000005;
+    opacity: 50%;
+    visibility: hidden;
+}
+
 #div_win {
-    height: 300px;
+    
+    height: 200px;
     width: 300px;
     position: absolute;
     background-color: #ffffff;
-    box-shadow: 1px 1px 50px 50px #BEBEBE;
-    top: 10%;
+    top: 25%;
     text-align: center;
     visibility: hidden;
 }
 
 #p_win {
     color: #ff0000;
-    font-size: 50px;
+    font-size: 35px;
 }
