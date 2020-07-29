@@ -17,7 +17,7 @@
 
             <div class="div_current">
                 <p class="p_current">CURRENT</p>
-                <p class="p_total">0</p>
+                <p id="total_1" class="p_total">0</p>
             </div>
 
         </div>
@@ -31,21 +31,21 @@
 
             <div class="div_current">
                 <p class="p_current">CURRENT</p>
-                <p class="p_total">0</p>
+                <p id="total_2" class="p_total">0</p>
             </div>
         </div>
 
-        <p id="new_game" class="controller">
+        <p id="new_game" class="controller" onclick="">
             <i class="material-icons">add_circle_outline</i>
             NEW GAME
         </p>
 
-        <p id="roll" class="controller">
+        <p id="roll" class="controller" onclick="roll_dice('total_1')">
             <i class="material-icons">sync</i>
             ROLL DICE
         </p>
 
-        <p id="hold" class="controller">
+        <p id="hold" class="controller" onclick="">
             <i class="material-icons">move_to_inbox</i>
             HOLD
         </p>
