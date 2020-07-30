@@ -148,7 +148,6 @@ body > div {
 #dot_dice_1 {
     top: 15%;
     left: 15%;
-    
 }
 
 #dot_dice_2 {
@@ -160,7 +159,6 @@ body > div {
 #dot_dice_3 {
     top: 43%;
     left: 15%;
-    
 }
 
 #dot_dice_4 {
@@ -172,19 +170,16 @@ body > div {
 #dot_dice_5 {
     top: 43%;
     right: 15%;
-    
 }
 
 #dot_dice_6 {
     bottom: 15%;
-    left: 15%;
-    
+    left: 15%;   
 }
 
 #dot_dice_7 {
     bottom: 15%;
     right: 15%;
-    
 }
 
 #overlay {
@@ -197,7 +192,6 @@ body > div {
 }
 
 #div_win {
-    
     height: 200px;
     width: 300px;
     position: absolute;
